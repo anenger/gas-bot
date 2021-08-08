@@ -1,4 +1,2 @@
 discord.py
 web3
-os
-json
