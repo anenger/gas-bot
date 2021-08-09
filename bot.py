@@ -4,11 +4,8 @@ import json
 import requests
 import time
 import asyncio
-from dotenv import load_dotenv
 
 client = discord.Client()
-
-load_dotenv()
 
 def get_gas_prices():
   r = requests.get(f"https://data-api.defipulse.com/api/v1/egs/api/ethgasAPI.json?api-key={os.getenv('API_KEY')}")
