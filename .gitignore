@@ -1,2 +1,3 @@
-/gas-bot
+venv
 .env
+__pycache__

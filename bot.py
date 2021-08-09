@@ -36,5 +36,6 @@ async def on_message(message):
     embed.add_field(name="Medium Gas", value=prices[1])
     embed.add_field(name="Fast Gas", value=prices[2])
     await message.send(embed=embed)
-
-client.run(os.getenv('TOKEN'))
+    
+if __name__ == "__main__":
+  client.run(os.getenv('TOKEN'))
